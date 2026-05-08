@@ -1,0 +1,4 @@
+[submodule "Plugins/UEGitPlugin"]
+	path = Plugins/UEGitPlugin
+	url = https://gitlab.com/mastergamedev-vr/uegitplugin.git
+	branch = dev
