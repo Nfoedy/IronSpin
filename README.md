@@ -22,6 +22,7 @@ The game challenges players to keep the ball in play, hit bumpers to increase th
 | `D` | Right Flipper |
 | `Space` | Launcher |
 | `Mouse` | Menu navigation |
+| `Esc` | Pause Menu |
 
 ## Gameplay
 
