@@ -1,39 +1,139 @@
 # IronSpin
 
-**IronSpin** is a physics-based pinball game developed in **Unreal Engine 5**.  
-The project focuses on responsive flipper mechanics, arcade gameplay, and a clean sci-fi visual style with neon effects.
+## 🎮 Overview
 
-The game challenges players to keep the ball in play, hit bumpers to increase the score, and survive as long as possible before losing all balls.
+**IronSpin** è un gioco pinball arcade sviluppato in **Unreal Engine 5**, basato principalmente sulla fisica e sul controllo reattivo delle palette.
 
-## Features
+Il progetto propone un gameplay semplice e immediato: il giocatore deve mantenere la pallina in gioco, colpire bumper e altri elementi del tavolo per accumulare punti e cercare di sopravvivere il più a lungo possibile prima di esaurire tutte le vite.
 
-- Physics-based pinball gameplay
-- Responsive flipper controls
-- Score and lives HUD displayed directly on the playfield
-- Neon ball trail effect
-- Interactive bumpers and rebound elements
-- Arcade-style sound and music
+Dal punto di vista visivo, **IronSpin** adotta uno stile sci-fi essenziale, arricchito da effetti neon e da una presentazione ispirata ai classici arcade.
 
-## Controls
+---
 
-| Key | Action |
-|------|--------|
+## 🎯 Project Goals
+
+L'obiettivo principale di **IronSpin** era sviluppare un piccolo progetto arcade incentrato su **fisica, game feel e chiarezza del gameplay**.
+
+Lo sviluppo si è concentrato soprattutto su:
+
+- gestione della pallina tramite fisica;
+- comportamento reattivo delle flipper;
+- interazione con bumper ed elementi rimbalzanti;
+- sistema di punteggio;
+- gestione delle vite e del game over;
+- HUD integrato direttamente nel playfield;
+- feedback visivi e sonori in stile arcade.
+
+Il progetto non nasce con l'obiettivo di costruire un pinball complesso o ricco di sistemi avanzati, ma di realizzare un gameplay loop semplice, leggibile e soddisfacente, curando soprattutto la risposta dei controlli e il comportamento degli elementi principali del tavolo.
+
+---
+
+## 🎮 Controls
+
+| Input | Azioni |
+|---|---|
 | `A` | Left Flipper |
 | `D` | Right Flipper |
 | `Space` | Launcher |
 | `Mouse` | Menu navigation |
 | `Esc` | Pause Menu |
 
-## Gameplay
+---
 
-Players control the flippers to keep the ball in play and accumulate points by hitting bumpers and obstacles.
+## 🕹️ Gameplay
 
-Each time the ball falls into the drain, a life is lost.  
-When all lives are lost, the game ends.
+In **IronSpin** il giocatore controlla le due flipper del tavolo da gioco per mantenere la pallina in movimento e impedire che cada nello scarico finale.
 
-## Technologies Used
+Durante la partita, la pallina può colpire bumper e altri elementi interattivi del tavolo, generando rimbalzi e aumentando il punteggio.
 
-- **Unreal Engine 5**
-- **Blueprint Visual Scripting**
+Ogni volta che la pallina cade fuori dal campo di gioco, il giocatore perde una vita.
 
+### Score System
 
+Il punteggio aumenta in base agli urti contro bumper e altri elementi del playfield.
+
+L'obiettivo è ottenere il punteggio più alto possibile, mantenendo la pallina in gioco il più a lungo possibile.
+
+### Lives System
+
+Il giocatore dispone di un numero limitato di vite.
+
+Ogni perdita della pallina comporta la riduzione di una vita e una nuova rimessa in gioco della sfera, finché il numero di vite non raggiunge lo zero.
+
+### Game Over
+
+Quando tutte le vite vengono esaurite, la partita termina e il giocatore deve ricominciare.
+
+---
+
+## 🧠 Development Focus
+
+Una parte importante dello sviluppo di **IronSpin** è stata dedicata alla costruzione di un gameplay arcade chiaro e reattivo attraverso **Blueprint Visual Scripting**.
+
+Il progetto ha richiesto in particolare di lavorare su:
+
+- gestione della fisica della pallina;
+- controllo delle flipper;
+- logica di lancio iniziale;
+- rilevamento delle collisioni;
+- aggiornamento del punteggio;
+- gestione delle vite;
+- visualizzazione delle informazioni di gioco nel playfield;
+- integrazione di effetti visivi e sonori.
+
+L'obiettivo era creare un piccolo progetto completo, nel quale gli elementi principali del pinball risultassero leggibili, funzionali e ben integrati tra loro.
+
+---
+
+## Blueprint Gameplay Architecture
+
+Il progetto è stato sviluppato utilizzando **Blueprint Visual Scripting**, organizzando la logica di gioco attorno ai principali elementi del tavolo.
+
+La pallina rappresenta il cuore del sistema fisico, mentre le flipper e i bumper costituiscono gli elementi principali dell'interazione di gameplay.
+
+Accanto a questi sistemi, il progetto comprende anche:
+
+- la gestione del punteggio;
+- il conteggio delle vite;
+- la logica di game over;
+- l'HUD posizionato direttamente nel tavolo da gioco;
+- gli effetti visivi, come la scia neon della pallina.
+
+Questo approccio ha permesso di costruire un progetto semplice ma completo, adatto a sperimentare il comportamento fisico degli oggetti e la costruzione di un gameplay arcade immediato.
+
+---
+
+## 📌 Final Considerations
+
+Lo sviluppo di **IronSpin** mi ha permesso di lavorare su un progetto compatto ma utile per approfondire la realizzazione di meccaniche arcade in Unreal Engine.
+
+La parte più importante del lavoro è stata trovare un buon equilibrio tra **fisica, controlli e feedback di gioco**, così da rendere il comportamento delle flipper e della pallina il più possibile chiaro e soddisfacente.
+
+Anche in un progetto relativamente semplice, è stato importante collegare correttamente più sistemi tra loro: input, collisioni, punteggio, vite, HUD ed effetti audiovisivi.
+
+**IronSpin** rappresenta quindi un piccolo esercizio di gameplay design e implementazione tecnica, utile per consolidare le basi di un gioco arcade costruito attorno a una meccanica immediata e riconoscibile.
+
+---
+
+## 🔮 Future Developments
+
+Il progetto è stato sviluppato con un'impostazione essenziale, ma diversi aspetti potrebbero essere ampliati in una versione futura.
+
+Alcuni possibili sviluppi sono:
+
+- introduzione di più tavoli o layout differenti;
+- moltiplicatori di punteggio e combo system;
+- elementi speciali del playfield;
+- effetti visivi più avanzati;
+- miglioramento dell'interfaccia utente;
+- leaderboard o sistema di high score;
+- audio e feedback più articolati;
+- maggiore varietà di ostacoli e zone interattive.
+
+Questi sviluppi permetterebbero di arricchire il progetto mantenendo però il suo focus principale: un gameplay pinball semplice, leggibile e reattivo.
+
+---
+
+## 📸 Video & Media
+
+- link Youtube: https://www.youtube.com/watch?v=xUOsMmtIoJg
