@@ -115,24 +115,6 @@ Anche in un progetto relativamente semplice, è stato importante collegare corre
 
 ---
 
-## 🔮 Future Developments
-
-Il progetto è stato sviluppato con un'impostazione essenziale, ma diversi aspetti potrebbero essere ampliati in una versione futura.
-
-Alcuni possibili sviluppi sono:
-
-- introduzione di più tavoli o layout differenti;
-- moltiplicatori di punteggio e combo system;
-- elementi speciali del playfield;
-- effetti visivi più avanzati;
-- miglioramento dell'interfaccia utente;
-- leaderboard o sistema di high score;
-- audio e feedback più articolati;
-- maggiore varietà di ostacoli e zone interattive.
-
-Questi sviluppi permetterebbero di arricchire il progetto mantenendo però il suo focus principale: un gameplay pinball semplice, leggibile e reattivo.
-
----
 
 ## 📸 Video & Media
 
